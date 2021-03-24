@@ -372,8 +372,8 @@ public class FloatingView extends AndroidNonvisibleComponent implements Activity
 
     @Override
     public void onDestroy() {
-        if (mWindowManager != null) {
-            mWindowManager.removeViewImmediate(rl);
-        }
+//         if (mWindowManager != null) {
+//             mWindowManager.removeViewImmediate(rl);
+//         }
     }
 }
